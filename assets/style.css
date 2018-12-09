@@ -1,3 +1,112 @@
-.container-header	{
+.container-fluid{
 	background-color: white;
+	margin: 0;
+
+}
+
+.navbar-header{
+	width: 300px;
+	padding: 5px;
+}
+
+.navbar-brand {
+	background: url(images/logo-navbar.png) no-repeat center / auto 100% transparent;
+	text-indent: -10000px;
+	width: 100%;
+	margin-left: 4em;
+
+}
+
+.navbar-right{
+	padding-top: 5px;
+	font-family: ;
+	src: url("");
+	
+}
+
+.container-fluid.header_tiatomate{
+	width: 100vw;
+	height: 60vh;
+	background-color: #E56353;
+	margin-top: -20px;
+	text-align: center;
+	color: white;
+}
+
+.container-fluid.header_tiatomate h1{
+	padding-top: 80px;
+	font-size: 3em;
+	font-family: Raleway;
+	font-weight: lighter;
+	color: white;
+	
+}
+
+.container-fluid.header_tiatomate p{
+	padding-top: 80px;
+	font-size: 3em;
+	font-family: Raleway;
+	font-weight: bold;
+	color: white;
+	
+}
+
+/*Section historia*/
+.historia__inner{
+	background-color: #707070;
+	color: #FAFAFA;
+	height: 500px;
+	padding: 50px;
+}
+
+.historia__inner_background{
+	background-image: url(images/img-history.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 500px;
+}
+
+.historia__inner h3{
+	font-size: 3em;
+}
+.historia__inner p{
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	padding-right: 8vw;
+}
+
+@media only screen and (max-width : 767px){
+	.historia__inner {
+		padding-top: 2vh;
+		padding-left: 15vw;
+		padding-bottom: 5vh;
+		height: 400px;
+	}
+	.historia__inner h3{
+	font-size: 2em;
+	}
+
+	.historia__inner-background{
+		height: 300px;
+	}
+}
+
+.nosotros__inner_background	{
+	background-image: url(images/our-tomatoes.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 500px;
+}
+
+.nosotros__inner {
+	background-color: #FAFAFA;
+	color: #707070;
+	height: 500px;
+	padding: 50px;
+}
+
+.nosotros__inner h3{
+	font-size: 3em;
 }

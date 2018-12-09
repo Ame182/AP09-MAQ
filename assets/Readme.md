@@ -25,20 +25,11 @@ Requisitos Generales:
 .3:sketch y estructura
 
 .4: Estructura de Directorio:
-Proyect
-    I———---------assets
-    I               I———--------css
-    I               I            I——- style.css
-    I               I
-    I               I———--------js
-    I               I            I——-script.js
-    I               I
-    I               I——---------img
-    I               I            I———images
-    I               I
-    I               I———-------Fonts
-    I                            I———fonts
-    I—--- index.html
+Proyect --->index.html
+assets-->  /images /css /js  /fonts
+
+
+       
 
 
 .5: Dependencias
